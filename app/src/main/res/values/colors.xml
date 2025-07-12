@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="app_background">#013328</color>
-    <color name="clogin">#E3DCD2</color>
+    <color name="lightbg">#E3DCD2</color>
     <color name="ctextfield">#CC8B65</color>
-    <color name="cloginbutton">#100C0D</color>
+    <color name="cheader">#100C0D</color>
 </resources>
