@@ -5,12 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/clogin"
+    android:background="@color/lightbg"
     tools:context=".Login">
 
     <View
         android:id="@+id/view3"
-        android:layout_width="412dp"
+        android:layout_width="0dp"
         android:layout_height="191dp"
         android:background="@drawable/rounded_bottom_center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/login"
-        android:textColor="@color/cloginbutton"
+        android:textColor="@color/cheader"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/cloginbutton"
+        android:backgroundTint="@color/cheader"
         android:elevation="4dp"
         android:text="@string/login"
         android:textColor="@android:color/white"
@@ -103,15 +103,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/signup_message"
-            android:textColor="@color/ctextfield"
-            android:textSize="16sp"/>
+            android:textColor="@color/cheader"
+            android:textSize="16sp"
+            android:layout_marginEnd="4dp"
+            />
 
         <TextView
             android:id="@+id/tvSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/signup"
-            android:textColor="@color/cloginbutton"
+            android:textColor="@color/ctextfield"
             android:textStyle="bold"
             android:textSize="18sp"
             android:clickable="true"
