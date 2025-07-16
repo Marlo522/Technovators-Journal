@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1035049420728",
+    "project_id": "technovators-journal",
+    "storage_bucket": "technovators-journal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035049420728:android:2e405cb05194af98e1714d",
+        "android_client_info": {
+          "package_name": "com.example.technovatorsjournal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHiKGRa5tvz5f9AtN7ZXVmsvq8xxxAH-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
